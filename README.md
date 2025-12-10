@@ -21,18 +21,13 @@ Whether you've built a simple calculator, a to-do list, or a weather app, your c
 
 3. Create a _new Branch_
 
-```markdown
-git checkout -b my-new-branch
-```
+
 
 4._Changes_: Create a new branch and commit your changes on that branch.
 5._ADD_ and _COMMIT_
 
 - Add your changes
 
-```markdown
-git add.
-```
 
 - Commit your changes. (reminder: make sure your relevant message includes the necessary detail to understand the change(s))
 
@@ -67,22 +62,17 @@ g them.
 - **SVG Usage**: Use **SVG** files whenever possible for vector graphics, as they are scalable and lightweight.
 - Compress other assets like PDFs and audio files using lossless compression tools before adding them to the repository to reduce file size.
 
-## 7. Optimize Code for Performance
+##  Optimize Code for Performance
 - **Bundle and Minify**: Ensure your project setup uses tools like Webpack or Vite to bundle and minify JavaScript and CSS files. This reduces file sizes and speeds up load times.
 - **Tree Shaking**: When using third-party libraries, make sure to only import the necessary parts (tree-shaking) to avoid bundling unused code.
   - For example, prefer `import { Button } from 'library'` instead of `import * as Library from 'library'`.
 
-## 8. Versioning and History Management
+##  Versioning and History Management
 - Keep commit history clean by avoiding frequent commits of unnecessary files.
 - Use meaningful and concise commit messages.
 - If a project becomes too large over time, consider splitting it into a separate repository.
 
-## 9. Contributions
-- For contributors, please adhere to the project size limits. Large contributions should be discussed through an issue or a pull request.
-- Ensure all contributions are optimized for size and performance before submitting them.
-
-
-
+##  Contributions
 
 
 The MIT License Do's and Don'ts summary:
